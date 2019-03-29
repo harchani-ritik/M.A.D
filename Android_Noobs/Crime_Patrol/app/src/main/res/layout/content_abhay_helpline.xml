@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".AbhayHelpline"
+    tools:showIn="@layout/activity_abhay_helpline">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Abhay Helpline"
+        android:textColor="@color/Purple"
+        android:fontFamily="sans-serif-black"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+    <ImageView
+        android:id="@+id/ImageView"
+        android:layout_width="wrap_content"
+        android:src="@drawable/abhay"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"/>
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Based in Pune, a team of legal professionals started this initiative to combat domestic violence. They wish to tackle domestic violence and also deal with those who misuse the Domestic Violence Act. The key here is to give both legal and moral support to those who need it the most. Here’s their website to know more. "
+        android:layout_below="@+id/ImageView"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textColor="@color/Purple"
+        android:textSize="25dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Emergency Contact: +91 09423827818"
+        android:layout_below="@+id/text"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/Black"
+        />
+    </RelativeLayout>
+</ScrollView>

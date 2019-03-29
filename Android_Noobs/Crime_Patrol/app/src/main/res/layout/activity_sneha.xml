@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".sneha"
+    tools:showIn="@layout/activity_sneha">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Society for Nutrition, Education and Health Action (SNEHA)"
+        android:textColor="@color/Purple"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginTop="10dp"/>
+    <ImageView
+        android:id="@+id/ImageView"
+        android:layout_width="wrap_content"
+        android:src="@drawable/sneha"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"/>
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SNEHA works with women in several parts of Mumbai such as the Dharavi slums to battle horrifying acts of physical violence. They counsel women and provide them with moral support. There also organize regular group sessions to spread awareness in order to prevent further abuse. If the victim doesn’t show up for a meeting, someone from the NGO calls up to find out the cause and ensure constant support. "
+        android:textColor="@color/Purple"
+        android:layout_below="@+id/ImageView"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textSize="25dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Emergency Contact: +91 9833092463"
+        android:layout_below="@+id/text"
+        android:textSize="20dp"
+        android:textColor="@color/Black"
+        android:layout_marginTop="20dp"
+
+        />
+    </RelativeLayout>
+</ScrollView>

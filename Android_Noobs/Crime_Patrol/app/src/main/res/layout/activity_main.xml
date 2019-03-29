@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DOMESTIC VIOLENCE"
+            android:fontFamily="sans-serif-black"
+            android:textSize="40dp"
+            android:textColor="@color/Purple"/>
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dv"
+            />
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="When the general public thinks about domestic violence, they usually think in terms of physical assault that results in visible injuries to the victim. This is only one type of abuse. There are several categories of abusive behavior, each of which has its own devastating consequences. Lethality involved with physical abuse may place the victim at higher risk, but the long term destruction of personhood that accompanies the other forms of abuse is significant and cannot be minimized."
+            android:layout_below="@id/image"
+            android:textColor="@color/Purple"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/domestic"
+            android:textSize="25dp"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/Purple"
+            android:layout_below="@id/text"/>
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Some Organisations against Domestic Violence"
+            android:textSize="30dp"
+            android:layout_below="@id/rules"
+            android:textColor="@color/Purple"/>
+        <Button
+            android:id="@+id/rules"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rules and Regulations regarding domestic violence"
+            android:layout_below="@id/text2"
+            android:onClick="rules"
+            />
+        <Button
+            android:id="@+id/abhay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Abhay helpline"
+            android:layout_below="@id/text3"
+            android:onClick="abhay"
+            />
+        <Button
+            android:id="@+id/sneha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sneha Helpline"
+            android:layout_below="@id/abhay"
+            android:onClick="sneha"
+            />
+        <Button
+            android:id="@+id/emergency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sneha"
+            android:text="Emergency Help"
+            android:onClick="makeCall"
+            android:background="@color/Brown"
+            android:textColor="@color/White"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+</ScrollView>
